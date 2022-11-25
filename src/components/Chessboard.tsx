@@ -15,7 +15,7 @@ export interface Cells {
     onMove: (smth: string) => void;
 }
 
-export default function Chessboard({ changePiece }: { changePiece: (e:string) => void }) {
+export default function Chessboard() {
     const { movement, Board, setBoard } = useContext(GameContext);
 
     useEffect(() => {

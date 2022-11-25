@@ -31,6 +31,7 @@ export const CtxProvider = ({ children }: any) => {
         let piece: Cells;
         let myPlace = tile;
         if (Board.length === 0) console.log('board is empty');
+        // Board seems to be empty
         Board.forEach((e) => {
             console.log(e);
             /* if (e.key === myPiece) {

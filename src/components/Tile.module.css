@@ -1,0 +1,37 @@
+.white-tile {
+    background-color: aliceblue;
+    color: rgba(0, 0, 0, 0.169);
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+.black-tile {
+    background-color: rgb(181, 77, 7);
+    color: rgba(255, 255, 255, 0.153);
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-content: center;
+    cursor: default;
+}
+.white-tile div {
+    padding: 20px;
+}
+.black-tile div {
+    padding: 20px;
+}
+
+img {
+    display: flex;
+    width: 60px;
+    cursor: pointer;
+}
+
+.pieces {
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-content: center;
+}
